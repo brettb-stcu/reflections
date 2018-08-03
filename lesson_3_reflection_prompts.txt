@@ -54,4 +54,8 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+	Making changes in a separate branch gives you the freedom to make changes that
+	doesn't immediately affect the core of the project. Branching allows you to move
+	back and forth quickly between two versions of your project. However, the longer
+	a branch is not merged with master the greater the possibility that there will be 
+	conflicts when multiple branches are merged back to master.
